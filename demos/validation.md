@@ -1,0 +1,1 @@
+https://aptori.dev/blog/the-essential-guide-to-input-validation-for-secure-software
