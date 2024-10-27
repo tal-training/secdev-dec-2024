@@ -22,3 +22,7 @@
         * `PUT /orders/{id}` (update a specific order)
         * `DELETE /orders/{id}` (cancel a specific order)
 
+** Bonus **
+
+Design a protection system for secure storage of encryption keys. 
+
