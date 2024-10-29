@@ -4,6 +4,8 @@
 
 **Scenario:** You are a developer working on a new e-commerce platform that allows customers to place orders online. The platform uses a RESTful API to manage user accounts, products, and orders.
 
+Test the threat model that you've developed in the threat modeling exercise.
+
 **Sensitive API Endpoints:**
 
 1. **User Account Management**
@@ -21,6 +23,20 @@
         * `GET /orders/{id}` (view a specific order)
         * `PUT /orders/{id}` (update a specific order)
         * `DELETE /orders/{id}` (cancel a specific order)
+
+Make sure the design follows the secure design principles for all the operations:
+
+• Defense-in-Depth
+• Fail Safe
+• Least Privilege
+• Separation of Duties
+• Economy of Mechanism
+• Complete Mediation
+• Open Design
+• Least Common Mechanism
+• Psychological acceptability
+• Weakest Link
+• Leveraging Existing Components
 
 ** Bonus **
 
